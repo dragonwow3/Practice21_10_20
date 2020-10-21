@@ -1,0 +1,33 @@
+.block{
+    width: 200px;
+    height: 300px;
+    padding: 50px;
+    margin: 1rem;
+}
+
+#block-a{
+    background: linear-gradient(45deg, blue, aqua);
+    border: 3px solid red;
+}
+
+#block-b{
+    background-image: url(https://freehtmlthemes.ru/assets/images/articles/css-fon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-left: 1px solid red;
+    border-right: 3px solid green;
+    border-bottom: 8px solid black;
+    border-top: 4px solid yellow;
+    border-radius: 10px;
+}
+
+#block-c{
+    height: 600px;
+    width: 600px;
+    background-image: url(https://img.freepik.com/free-vector/colorful-flow-background_23-2148632517.jpg?size=626&ext=jpg), url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm21-smoke-bb-5_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c8347a73d6427dda5d03bd1100c39354);
+    background-repeat: no-repeat, repeat-x;
+    background-position: left center, bottom right;
+    background-attachment: scroll, fixed;
+    background-size: initial;
+}
